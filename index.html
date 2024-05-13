@@ -8,27 +8,52 @@
     <title>Fitness Pals</title>
 </head>
 <body>
-    <h1>Fitness Pals</h1>
-    <p>Find your new gym buddy.</p>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Fitness Pals</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Sign Up</a>
+            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link disabled">Your buddy</a>
+            </div>
+        </div>
+        </nav></header>
+
+    <hr>
+
     <article class="container">
         <section class="call-out">
             <h2>Find a gym buddy</h2>
             <p>Find a gym buddy to help you stay motivated and reach your fitness goals.</p>
-            <a href="signup.php">Sign up</a>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Sign Up Now!</a>
         </section>
     </article>
+
+    <hr>
+
     <section class="quote">
-        <blockquote>
-            "The only bad workout is the one that didn't happen."
+        <h2 class="text-uppercase">Reviews</h2>
+        <blockquote class="blockquote">
+            <p>The only bad workout is the one that didn't happen.</p>
         </blockquote>
         <cite>Unknown</cite>
-        <blockquote>
-            "The only bad workout is the one that didn't happen."
-        <cite>Unknown</cite>
+        <blockquote class="blockquote">
+            <p>The only bad workout is the one that didn't happen.</p>
         </blockquote>
+        <cite>Unknown</cite>
     </section>
+
+    <hr>
+
     <section class="features">
-        <h2>Features</h2>
+        <h2 class="text-uppercase">Features</h2>
         <ul>
             <li>Find a gym buddy</li>
             <li>Set fitness goals</li>
@@ -37,5 +62,6 @@
             <li>Post progress updates and motivations</li>
         </ul>
     </section>
+
 </body>
 </html>
