@@ -6,11 +6,13 @@ body{
     
 }
 
-
+main {
+    padding: 10px;
+}
 .callout-container {}
 
 .reviews-container {
-    background-color: white;
+    background-color: none;
 }
 
 .features-container {}
