@@ -3,10 +3,18 @@ body{
     font-family: "Abel", sans-serif;
     font-weight: 400;
     font-style: normal;
+    
 }
-main {
-    padding: 10px;
+
+
+.callout-container {}
+
+.reviews-container {
+    background-color: white;
 }
+
+.features-container {}
+
 #cap,
 .feature-item {
     position: absolute;
