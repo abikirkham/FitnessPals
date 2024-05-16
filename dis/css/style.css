@@ -20,7 +20,9 @@ body{
 
     position: relative;
 }
-
+.login {
+    background-image: url('../images/logo.jpg') no-repeat center center fixed;
+}
 .navbar {
     background-color: #505C5C;
 }
