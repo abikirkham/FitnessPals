@@ -21,16 +21,20 @@ body{
     position: relative;
 }
 
-.container {
-    opacity: 0.9;
+.navbar {
+    background-color: #505C5C;
 }
+.container {
+    opacity: 0.7;
+}
+
 .reviews-container {
     background-color: none;
     height: 80vh;
 }
 
 .features-container {
-    background-color: #BED7D5;
+    background-color: #505C5C;
 }
 
 #cap,
