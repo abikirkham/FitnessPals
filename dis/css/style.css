@@ -1,21 +1,37 @@
 body{
-    background-color: #BED7D5;
     font-family: "Abel", sans-serif;
     font-weight: 400;
     font-style: normal;
     
 }
 
-main {
-    padding: 10px;
-}
-.callout-container {}
+.callout-container {
+    height: 100vh;
 
+    background: url('../images/logo.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.container {
+    opacity: 0.9;
+}
 .reviews-container {
     background-color: none;
+    height: 80vh;
 }
 
-.features-container {}
+.features-container {
+    background-color: #BED7D5;
+}
 
 #cap,
 .feature-item {
@@ -34,4 +50,9 @@ main {
     max-width: 100%;
     height: auto;
     border-radius: 20%;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
 }
