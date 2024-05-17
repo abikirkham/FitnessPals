@@ -20,15 +20,22 @@ body{
 
     position: relative;
 }
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .login {
     background-image: url('../images/logo.jpg') no-repeat center center fixed;
 }
 .navbar {
     background-color: #505C5C;
 }
-.container {
-    opacity: 0.7;
-}
+
 
 .reviews-container {
     background-color: none;
@@ -39,6 +46,61 @@ body{
     background-color: #505C5C;
 }
 
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: whitesmoke;
+}
+
+.block-divider--green {
+    background-color: #b7ff6a;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* Callout */
+
+.btn--green {
+    background-color: #b7ff6a;
+    border-radius: 23px;
+    border: 1px solid #b7ff6a;
+}
+
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus {
+    background-color: #3c8444;
+    border-color: #3c8444;
+    color: white;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron-small {
+    font-style: italic;
+    font-size: larger;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+
+/* Features image styles */
 #cap,
 .feature-item {
     position: absolute;
