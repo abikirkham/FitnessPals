@@ -4,7 +4,36 @@ body{
     font-style: normal;
     
 }
+/* Navbar */
 
+.nav-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-size: xx-large;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/* Callout */
 .callout-container {
     height: 100vh;
 
@@ -32,9 +61,7 @@ body{
 .login {
     background-image: url('../images/logo.jpg') no-repeat center center fixed;
 }
-.navbar {
-    background-color: #505C5C;
-}
+
 
 
 .reviews-container {
@@ -43,7 +70,7 @@ body{
 }
 
 .features-container {
-    background-color: #505C5C;
+    background-color:#283325;
 }
 
 /* Block dividers */
