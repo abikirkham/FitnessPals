@@ -177,7 +177,6 @@ footer {
         height: 100vh;
     
         background: url('../images/logo.jpg') no-repeat center center fixed;
-        opacity: 0.8;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -198,4 +197,14 @@ footer {
 }
 .dropdown-item {
     color: whitesmoke;
+}
+form input[type="password"],
+form input[type="email"],
+form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
 }
