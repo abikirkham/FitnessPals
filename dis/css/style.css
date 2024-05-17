@@ -32,7 +32,7 @@ body{
 
 .reviews-container {
     background-color: none;
-    height: 80vh;
+    padding: 20px;
 }
 
 .features-container {
