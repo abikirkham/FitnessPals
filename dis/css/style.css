@@ -58,21 +58,6 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.login {
-    background-image: url('../images/logo.jpg') no-repeat center center fixed;
-}
-
-
-
-.reviews-container {
-    background-color: none;
-    padding: 20px;
-}
-
-.features-container {
-    background-color:#283325;
-}
-
 /* Block dividers */
 
 .block-divider {
@@ -133,7 +118,10 @@ body{
 .quotes .page-header {
     margin-bottom: 25px;
 }
-
+.reviews-container {
+    background-color: none;
+    padding: 20px;
+}
 
 /* Features image styles */
 #cap,
@@ -155,6 +143,12 @@ body{
     border-radius: 20%;
 }
 
+.features-container {
+    background-color:#283325;
+}
+
+/* Footer */
+
 footer {
     padding: 20px;
     text-align: center;
@@ -174,4 +168,34 @@ footer {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
+}
+
+
+/* Sign in Page */
+
+.background-signin {
+        height: 100vh;
+    
+        background: url('../images/logo.jpg') no-repeat center center fixed;
+        opacity: 0.8;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        position: relative;
+
+        color: whitesmoke;
+    }
+
+.sign-in-form {
+    z-index: 1;
+    margin-top: 100px;
+}
+.dropdown-item {
+    color: whitesmoke;
 }
