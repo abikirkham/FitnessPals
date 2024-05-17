@@ -127,6 +127,14 @@ body{
     margin-bottom: 30px;
 }
 
+
+/* Quotes */
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+
 /* Features image styles */
 #cap,
 .feature-item {
